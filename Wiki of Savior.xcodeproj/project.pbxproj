@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60BF5319DD0B29D0F0F14A6D /* Pods_Wiki_of_Savior.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6BD6680021943D2807E4B2 /* Pods_Wiki_of_Savior.framework */; };
+		810CABF01CC8184200BA964A /* MapsFilterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 810CABEF1CC8184200BA964A /* MapsFilterView.xib */; };
+		810CABF21CC818FA00BA964A /* MapsFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810CABF11CC818FA00BA964A /* MapsFilterView.swift */; };
+		817D3B641CC7EF07005FE990 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817D3B631CC7EF07005FE990 /* AppDelegate.swift */; };
+		817D3B6B1CC7EF07005FE990 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817D3B691CC7EF07005FE990 /* Main.storyboard */; };
+		817D3B6D1CC7EF07005FE990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 817D3B6C1CC7EF07005FE990 /* Assets.xcassets */; };
+		817D3B701CC7EF07005FE990 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817D3B6E1CC7EF07005FE990 /* LaunchScreen.storyboard */; };
+		817D3B7B1CC7EF07005FE990 /* Wiki_of_SaviorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817D3B7A1CC7EF07005FE990 /* Wiki_of_SaviorTests.swift */; };
+		817D3B861CC7EF07005FE990 /* Wiki_of_SaviorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817D3B851CC7EF07005FE990 /* Wiki_of_SaviorUITests.swift */; };
+		817D3B941CC7F061005FE990 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817D3B931CC7F061005FE990 /* MapsViewController.swift */; };
+		81CA2DAE1CC7F4560044CFB5 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CA2DAD1CC7F4560044CFB5 /* Map.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		817D3B771CC7EF07005FE990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 817D3B581CC7EF07005FE990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 817D3B5F1CC7EF07005FE990;
+			remoteInfo = "Wiki of Savior";
+		};
+		817D3B821CC7EF07005FE990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 817D3B581CC7EF07005FE990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 817D3B5F1CC7EF07005FE990;
+			remoteInfo = "Wiki of Savior";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A6BD6680021943D2807E4B2 /* Pods_Wiki_of_Savior.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wiki_of_Savior.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B9C1E5B7650382E3F06968 /* Pods-Wiki of Savior.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wiki of Savior.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wiki of Savior/Pods-Wiki of Savior.release.xcconfig"; sourceTree = "<group>"; };
+		810CABEF1CC8184200BA964A /* MapsFilterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapsFilterView.xib; sourceTree = "<group>"; };
+		810CABF11CC818FA00BA964A /* MapsFilterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsFilterView.swift; sourceTree = "<group>"; };
+		817D3B601CC7EF07005FE990 /* Wiki of Savior.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wiki of Savior.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		817D3B631CC7EF07005FE990 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		817D3B6A1CC7EF07005FE990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		817D3B6C1CC7EF07005FE990 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		817D3B6F1CC7EF07005FE990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		817D3B711CC7EF07005FE990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		817D3B761CC7EF07005FE990 /* Wiki of SaviorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wiki of SaviorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		817D3B7A1CC7EF07005FE990 /* Wiki_of_SaviorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wiki_of_SaviorTests.swift; sourceTree = "<group>"; };
+		817D3B7C1CC7EF07005FE990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		817D3B811CC7EF07005FE990 /* Wiki of SaviorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wiki of SaviorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		817D3B851CC7EF07005FE990 /* Wiki_of_SaviorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wiki_of_SaviorUITests.swift; sourceTree = "<group>"; };
+		817D3B871CC7EF07005FE990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		817D3B931CC7F061005FE990 /* MapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
+		81CA2DAD1CC7F4560044CFB5 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		81CA2DB21CC7F8F40044CFB5 /* WikiOfSavior_Bridging_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WikiOfSavior_Bridging_Header.h; sourceTree = "<group>"; };
+		B2DADEBD699124F7697B5AE9 /* Pods-Wiki of Savior.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wiki of Savior.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wiki of Savior/Pods-Wiki of Savior.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		817D3B5D1CC7EF07005FE990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BF5319DD0B29D0F0F14A6D /* Pods_Wiki_of_Savior.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		817D3B731CC7EF07005FE990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		817D3B7E1CC7EF07005FE990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		817D3B571CC7EF07005FE990 = {
+			isa = PBXGroup;
+			children = (
+				81CA2DB21CC7F8F40044CFB5 /* WikiOfSavior_Bridging_Header.h */,
+				817D3B621CC7EF07005FE990 /* Wiki of Savior */,
+				817D3B791CC7EF07005FE990 /* Wiki of SaviorTests */,
+				817D3B841CC7EF07005FE990 /* Wiki of SaviorUITests */,
+				817D3B611CC7EF07005FE990 /* Products */,
+				DCFCCC02C045EACB362C8558 /* Pods */,
+				FB1F15A9830398D0709A33A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		817D3B611CC7EF07005FE990 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				817D3B601CC7EF07005FE990 /* Wiki of Savior.app */,
+				817D3B761CC7EF07005FE990 /* Wiki of SaviorTests.xctest */,
+				817D3B811CC7EF07005FE990 /* Wiki of SaviorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		817D3B621CC7EF07005FE990 /* Wiki of Savior */ = {
+			isa = PBXGroup;
+			children = (
+				817D3B931CC7F061005FE990 /* MapsViewController.swift */,
+				817D3B631CC7EF07005FE990 /* AppDelegate.swift */,
+				817D3B691CC7EF07005FE990 /* Main.storyboard */,
+				817D3B6C1CC7EF07005FE990 /* Assets.xcassets */,
+				817D3B6E1CC7EF07005FE990 /* LaunchScreen.storyboard */,
+				817D3B711CC7EF07005FE990 /* Info.plist */,
+				81CA2DAD1CC7F4560044CFB5 /* Map.swift */,
+				810CABEF1CC8184200BA964A /* MapsFilterView.xib */,
+				810CABF11CC818FA00BA964A /* MapsFilterView.swift */,
+			);
+			path = "Wiki of Savior";
+			sourceTree = "<group>";
+		};
+		817D3B791CC7EF07005FE990 /* Wiki of SaviorTests */ = {
+			isa = PBXGroup;
+			children = (
+				817D3B7A1CC7EF07005FE990 /* Wiki_of_SaviorTests.swift */,
+				817D3B7C1CC7EF07005FE990 /* Info.plist */,
+			);
+			path = "Wiki of SaviorTests";
+			sourceTree = "<group>";
+		};
+		817D3B841CC7EF07005FE990 /* Wiki of SaviorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				817D3B851CC7EF07005FE990 /* Wiki_of_SaviorUITests.swift */,
+				817D3B871CC7EF07005FE990 /* Info.plist */,
+			);
+			path = "Wiki of SaviorUITests";
+			sourceTree = "<group>";
+		};
+		DCFCCC02C045EACB362C8558 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2DADEBD699124F7697B5AE9 /* Pods-Wiki of Savior.debug.xcconfig */,
+				66B9C1E5B7650382E3F06968 /* Pods-Wiki of Savior.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB1F15A9830398D0709A33A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A6BD6680021943D2807E4B2 /* Pods_Wiki_of_Savior.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		817D3B5F1CC7EF07005FE990 /* Wiki of Savior */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 817D3B8A1CC7EF07005FE990 /* Build configuration list for PBXNativeTarget "Wiki of Savior" */;
+			buildPhases = (
+				AE29AAE3884846CF19589BC6 /* Check Pods Manifest.lock */,
+				817D3B5C1CC7EF07005FE990 /* Sources */,
+				817D3B5D1CC7EF07005FE990 /* Frameworks */,
+				817D3B5E1CC7EF07005FE990 /* Resources */,
+				A170E495EFC962AEF308A4D5 /* Embed Pods Frameworks */,
+				1A886CF2198DB52EDD0CECAF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wiki of Savior";
+			productName = "Wiki of Savior";
+			productReference = 817D3B601CC7EF07005FE990 /* Wiki of Savior.app */;
+			productType = "com.apple.product-type.application";
+		};
+		817D3B751CC7EF07005FE990 /* Wiki of SaviorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 817D3B8D1CC7EF07005FE990 /* Build configuration list for PBXNativeTarget "Wiki of SaviorTests" */;
+			buildPhases = (
+				817D3B721CC7EF07005FE990 /* Sources */,
+				817D3B731CC7EF07005FE990 /* Frameworks */,
+				817D3B741CC7EF07005FE990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				817D3B781CC7EF07005FE990 /* PBXTargetDependency */,
+			);
+			name = "Wiki of SaviorTests";
+			productName = "Wiki of SaviorTests";
+			productReference = 817D3B761CC7EF07005FE990 /* Wiki of SaviorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		817D3B801CC7EF07005FE990 /* Wiki of SaviorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 817D3B901CC7EF07005FE990 /* Build configuration list for PBXNativeTarget "Wiki of SaviorUITests" */;
+			buildPhases = (
+				817D3B7D1CC7EF07005FE990 /* Sources */,
+				817D3B7E1CC7EF07005FE990 /* Frameworks */,
+				817D3B7F1CC7EF07005FE990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				817D3B831CC7EF07005FE990 /* PBXTargetDependency */,
+			);
+			name = "Wiki of SaviorUITests";
+			productName = "Wiki of SaviorUITests";
+			productReference = 817D3B811CC7EF07005FE990 /* Wiki of SaviorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		817D3B581CC7EF07005FE990 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Matrpedreira;
+				TargetAttributes = {
+					817D3B5F1CC7EF07005FE990 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					817D3B751CC7EF07005FE990 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 817D3B5F1CC7EF07005FE990;
+					};
+					817D3B801CC7EF07005FE990 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 817D3B5F1CC7EF07005FE990;
+					};
+				};
+			};
+			buildConfigurationList = 817D3B5B1CC7EF07005FE990 /* Build configuration list for PBXProject "Wiki of Savior" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 817D3B571CC7EF07005FE990;
+			productRefGroup = 817D3B611CC7EF07005FE990 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				817D3B5F1CC7EF07005FE990 /* Wiki of Savior */,
+				817D3B751CC7EF07005FE990 /* Wiki of SaviorTests */,
+				817D3B801CC7EF07005FE990 /* Wiki of SaviorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		817D3B5E1CC7EF07005FE990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817D3B701CC7EF07005FE990 /* LaunchScreen.storyboard in Resources */,
+				810CABF01CC8184200BA964A /* MapsFilterView.xib in Resources */,
+				817D3B6D1CC7EF07005FE990 /* Assets.xcassets in Resources */,
+				817D3B6B1CC7EF07005FE990 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		817D3B741CC7EF07005FE990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		817D3B7F1CC7EF07005FE990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A886CF2198DB52EDD0CECAF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wiki of Savior/Pods-Wiki of Savior-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A170E495EFC962AEF308A4D5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wiki of Savior/Pods-Wiki of Savior-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE29AAE3884846CF19589BC6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		817D3B5C1CC7EF07005FE990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817D3B941CC7F061005FE990 /* MapsViewController.swift in Sources */,
+				810CABF21CC818FA00BA964A /* MapsFilterView.swift in Sources */,
+				81CA2DAE1CC7F4560044CFB5 /* Map.swift in Sources */,
+				817D3B641CC7EF07005FE990 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		817D3B721CC7EF07005FE990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817D3B7B1CC7EF07005FE990 /* Wiki_of_SaviorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		817D3B7D1CC7EF07005FE990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817D3B861CC7EF07005FE990 /* Wiki_of_SaviorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		817D3B781CC7EF07005FE990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 817D3B5F1CC7EF07005FE990 /* Wiki of Savior */;
+			targetProxy = 817D3B771CC7EF07005FE990 /* PBXContainerItemProxy */;
+		};
+		817D3B831CC7EF07005FE990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 817D3B5F1CC7EF07005FE990 /* Wiki of Savior */;
+			targetProxy = 817D3B821CC7EF07005FE990 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		817D3B691CC7EF07005FE990 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				817D3B6A1CC7EF07005FE990 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		817D3B6E1CC7EF07005FE990 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				817D3B6F1CC7EF07005FE990 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		817D3B881CC7EF07005FE990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		817D3B891CC7EF07005FE990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		817D3B8B1CC7EF07005FE990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2DADEBD699124F7697B5AE9 /* Pods-Wiki of Savior.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wiki of Savior/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-matrpedreira.Wiki-of-Savior";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = WikiOfSavior_Bridging_Header.h;
+			};
+			name = Debug;
+		};
+		817D3B8C1CC7EF07005FE990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66B9C1E5B7650382E3F06968 /* Pods-Wiki of Savior.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wiki of Savior/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-matrpedreira.Wiki-of-Savior";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = WikiOfSavior_Bridging_Header.h;
+			};
+			name = Release;
+		};
+		817D3B8E1CC7EF07005FE990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Wiki of SaviorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-matrpedreira.Wiki-of-SaviorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wiki of Savior.app/Wiki of Savior";
+			};
+			name = Debug;
+		};
+		817D3B8F1CC7EF07005FE990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Wiki of SaviorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-matrpedreira.Wiki-of-SaviorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wiki of Savior.app/Wiki of Savior";
+			};
+			name = Release;
+		};
+		817D3B911CC7EF07005FE990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wiki of SaviorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-matrpedreira.Wiki-of-SaviorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Wiki of Savior";
+			};
+			name = Debug;
+		};
+		817D3B921CC7EF07005FE990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wiki of SaviorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-matrpedreira.Wiki-of-SaviorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Wiki of Savior";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		817D3B5B1CC7EF07005FE990 /* Build configuration list for PBXProject "Wiki of Savior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817D3B881CC7EF07005FE990 /* Debug */,
+				817D3B891CC7EF07005FE990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		817D3B8A1CC7EF07005FE990 /* Build configuration list for PBXNativeTarget "Wiki of Savior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817D3B8B1CC7EF07005FE990 /* Debug */,
+				817D3B8C1CC7EF07005FE990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		817D3B8D1CC7EF07005FE990 /* Build configuration list for PBXNativeTarget "Wiki of SaviorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817D3B8E1CC7EF07005FE990 /* Debug */,
+				817D3B8F1CC7EF07005FE990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		817D3B901CC7EF07005FE990 /* Build configuration list for PBXNativeTarget "Wiki of SaviorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817D3B911CC7EF07005FE990 /* Debug */,
+				817D3B921CC7EF07005FE990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 817D3B581CC7EF07005FE990 /* Project object */;
+}
