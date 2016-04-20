@@ -489,10 +489,11 @@
 			baseConfigurationReference = B2DADEBD699124F7697B5AE9 /* Pods-Wiki of Savior.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = "Wiki of Savior/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-matrpedreira.Wiki-of-Savior";
+				PRODUCT_BUNDLE_IDENTIFIER = co.StepByStep.WikiOfSavior;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = WikiOfSavior_Bridging_Header.h;
 			};
@@ -503,10 +504,11 @@
 			baseConfigurationReference = 66B9C1E5B7650382E3F06968 /* Pods-Wiki of Savior.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = "Wiki of Savior/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-matrpedreira.Wiki-of-Savior";
+				PRODUCT_BUNDLE_IDENTIFIER = co.StepByStep.WikiOfSavior;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = WikiOfSavior_Bridging_Header.h;
 			};
