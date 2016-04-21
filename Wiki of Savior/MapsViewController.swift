@@ -21,7 +21,6 @@ class MapsTableViewController: UIViewController,UITableViewDelegate, UITableView
     
     
     @IBOutlet weak var tableView: UITableView!
-    @IBOutlet weak var navBar: UINavigationBar!
     var searchController:UISearchController?
     
     var mapsOppened = 0
@@ -34,8 +33,6 @@ class MapsTableViewController: UIViewController,UITableViewDelegate, UITableView
         definesPresentationContext = true
         tableView.tableHeaderView = searchController!.searchBar
         downloadMapsData()
-        navBar.titleTextAttributes = [NSForegroundColorAttributeName:UIColor.whiteColor()]
-        showAdd()
     }
 
     

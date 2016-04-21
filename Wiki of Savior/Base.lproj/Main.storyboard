@@ -1,15 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="3Us-Qi-AQI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="3rG-jO-cey">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Maps Table View Controller-->
+        <!--Navigation Controller-->
+        <scene sceneID="jH7-yt-MOn">
+            <objects>
+                <navigationController id="3rG-jO-cey" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jLe-d1-0Xj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="3Us-Qi-AQI" kind="relationship" relationship="rootViewController" id="BMY-82-uWd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xbY-MY-l5Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1500" y="-741"/>
+        </scene>
+        <!--Wiki Of Savior-->
         <scene sceneID="6Jn-AA-Jdg">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="3Us-Qi-AQI" customClass="MapsTableViewController" customModule="Wiki_of_Savior" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Wiki Of Savior" automaticallyAdjustsScrollViewInsets="NO" id="3Us-Qi-AQI" customClass="MapsTableViewController" customModule="Wiki_of_Savior" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kHM-tu-4D4"/>
                         <viewControllerLayoutGuide type="bottom" id="L4C-in-QqA"/>
@@ -82,34 +102,24 @@
                                     <outlet property="delegate" destination="3Us-Qi-AQI" id="1XF-NE-xp4"/>
                                 </connections>
                             </tableView>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J6t-6b-g09">
-                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
-                                <color key="barTintColor" red="0.0" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <items>
-                                    <navigationItem title="Wiki of Savior" id="oBC-Rh-P1E"/>
-                                </items>
-                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="TKc-NZ-zG2" firstAttribute="leading" secondItem="5cN-Dj-bxP" secondAttribute="leading" id="1cj-IJ-ZTv"/>
-                            <constraint firstItem="TKc-NZ-zG2" firstAttribute="top" secondItem="J6t-6b-g09" secondAttribute="bottom" id="8Xp-F7-hcm"/>
-                            <constraint firstItem="J6t-6b-g09" firstAttribute="leading" secondItem="5cN-Dj-bxP" secondAttribute="leading" id="9je-mO-nWB"/>
                             <constraint firstItem="L4C-in-QqA" firstAttribute="top" secondItem="TKc-NZ-zG2" secondAttribute="bottom" id="OOh-tD-o6U"/>
-                            <constraint firstItem="J6t-6b-g09" firstAttribute="top" secondItem="kHM-tu-4D4" secondAttribute="bottom" id="P08-ud-Kgi"/>
                             <constraint firstAttribute="trailing" secondItem="TKc-NZ-zG2" secondAttribute="trailing" id="gvK-nF-UfH"/>
-                            <constraint firstAttribute="trailing" secondItem="J6t-6b-g09" secondAttribute="trailing" id="xm4-sL-MIO"/>
+                            <constraint firstItem="TKc-NZ-zG2" firstAttribute="top" secondItem="kHM-tu-4D4" secondAttribute="bottom" id="oQo-Gt-1EW"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Wiki of Savior" id="bcC-CW-atN"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
-                        <outlet property="navBar" destination="J6t-6b-g09" id="Rto-j8-hIH"/>
                         <outlet property="tableView" destination="TKc-NZ-zG2" id="SWb-v4-4Zk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MGP-6Y-aYf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-439" y="-598"/>
+            <point key="canvasLocation" x="-742" y="-741"/>
         </scene>
     </scenes>
 </document>

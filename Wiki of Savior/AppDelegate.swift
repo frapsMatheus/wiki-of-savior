@@ -21,6 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
                                clientKey: "rMmmC3EFkJB3s4K7lW0KVdlAXjfjGhFeE1OPo2Fp")
         Chartboost.startWithAppId("5717fe33f6cd455663aadab6", appSignature: "104de47b7e13b66e17126cb1c2185da821bee788", delegate: nil)
         Chartboost.setShouldRequestInterstitialsInFirstSession(false)
+        UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.LightContent, animated: false)
         return true
     }
 
