@@ -139,6 +139,7 @@ class MapsTableViewController: UIViewController,UITableViewDelegate, UITableView
     func downloadMapsData(){
         let query = PFQuery(className:"Maps")
         MBProgressHUD.showHUDAddedTo(self.view, animated:true)
+        query.orderByAscending("Lv")
         query.findObjectsInBackgroundWithBlock { (objects, error) in
             MBProgressHUD.hideHUDForView(self.view, animated:true)
             for object in objects! {
