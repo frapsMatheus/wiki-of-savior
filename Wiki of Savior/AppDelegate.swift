@@ -8,6 +8,9 @@
 
 import UIKit
 import Parse
+import Fabric
+import Crashlytics
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate {
@@ -19,9 +22,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         // Override point for customization after application launch.
         Parse.setApplicationId("GurnUYv92UjyhN6hkfQibc3HYZgRclyldBP5Wzi2",
                                clientKey: "rMmmC3EFkJB3s4K7lW0KVdlAXjfjGhFeE1OPo2Fp")
-        Chartboost.startWithAppId("5717fe33f6cd455663aadab6", appSignature: "104de47b7e13b66e17126cb1c2185da821bee788", delegate: nil)
+        //Chartboost.startWithAppId("5717fe33f6cd455663aadab6", appSignature: "104de47b7e13b66e17126cb1c2185da821bee788", delegate: nil)
         Chartboost.setShouldRequestInterstitialsInFirstSession(false)
         UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.LightContent, animated: false)
+        
+        Fabric.with([Crashlytics.self])
         return true
     }
 

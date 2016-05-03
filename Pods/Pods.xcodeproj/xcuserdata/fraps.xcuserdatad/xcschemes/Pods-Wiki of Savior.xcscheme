@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'E6EB82A8812D1D1CDFD71D0B'
+               BlueprintIdentifier = '6329F739A299C61600A02A9C'
                BlueprintName = 'Pods-Wiki of Savior'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_Wiki_of_Savior.framework'>

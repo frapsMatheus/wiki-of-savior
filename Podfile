@@ -6,4 +6,6 @@ target 'Wiki of Savior' do
   	pod 'JTSImageViewController'
 	pod 'MBProgressHUD'
 	pod 'ChartboostSDK'
+	pod 'Fabric'
+	pod 'Crashlytics'
 end

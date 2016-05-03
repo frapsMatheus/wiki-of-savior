@@ -1,8 +1,8 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/ChartboostSDK"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/ChartboostSDK" "${PODS_ROOT}/Crashlytics/iOS" "${PODS_ROOT}/Fabric/iOS"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ChartboostSDK"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ChartboostSDK" "${PODS_ROOT}/Headers/Public/Crashlytics" "${PODS_ROOT}/Headers/Public/Fabric"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/Bolts.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/JTSImageViewController.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/MBProgressHUD.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/Parse.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/ChartboostSDK"
-OTHER_LDFLAGS = $(inherited) -ObjC -framework "AVFoundation" -framework "Bolts" -framework "Chartboost" -framework "CoreData" -framework "CoreGraphics" -framework "CoreMedia" -framework "JTSImageViewController" -framework "MBProgressHUD" -framework "Parse" -framework "QuartzCore" -framework "StoreKit" -framework "SystemConfiguration" -weak_framework "AdSupport"
+OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/Bolts.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/JTSImageViewController.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/MBProgressHUD.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/Parse.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/ChartboostSDK" -isystem "${PODS_ROOT}/Headers/Public/Crashlytics" -isystem "${PODS_ROOT}/Headers/Public/Fabric"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"z" -framework "AVFoundation" -framework "Bolts" -framework "Chartboost" -framework "CoreData" -framework "CoreGraphics" -framework "CoreMedia" -framework "Crashlytics" -framework "Fabric" -framework "JTSImageViewController" -framework "MBProgressHUD" -framework "Parse" -framework "QuartzCore" -framework "Security" -framework "StoreKit" -framework "SystemConfiguration" -framework "UIKit" -weak_framework "AdSupport"
 PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-Wiki of Savior
 PODS_ROOT = ${SRCROOT}/Pods

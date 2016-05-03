@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4399794A1CD28A5100E90E67 /* Simulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439979491CD28A5100E90E67 /* Simulation.swift */; };
+		439979551CD7CC5400E90E67 /* StatsCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439979541CD7CC5400E90E67 /* StatsCalculatorViewController.swift */; };
+		439979571CD7CEA400E90E67 /* SimulationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 439979561CD7CEA400E90E67 /* SimulationCell.xib */; };
+		439979591CD7CF0800E90E67 /* SimulationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439979581CD7CF0800E90E67 /* SimulationTableViewCell.swift */; };
 		60BF5319DD0B29D0F0F14A6D /* Pods_Wiki_of_Savior.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6BD6680021943D2807E4B2 /* Pods_Wiki_of_Savior.framework */; };
 		810CABF01CC8184200BA964A /* MapsFilterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 810CABEF1CC8184200BA964A /* MapsFilterView.xib */; };
 		810CABF21CC818FA00BA964A /* MapsFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810CABF11CC818FA00BA964A /* MapsFilterView.swift */; };
@@ -38,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		439979491CD28A5100E90E67 /* Simulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Simulation.swift; sourceTree = "<group>"; };
+		439979541CD7CC5400E90E67 /* StatsCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsCalculatorViewController.swift; sourceTree = "<group>"; };
+		439979561CD7CEA400E90E67 /* SimulationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimulationCell.xib; sourceTree = "<group>"; };
+		439979581CD7CF0800E90E67 /* SimulationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimulationTableViewCell.swift; sourceTree = "<group>"; };
 		4A6BD6680021943D2807E4B2 /* Pods_Wiki_of_Savior.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wiki_of_Savior.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66B9C1E5B7650382E3F06968 /* Pods-Wiki of Savior.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wiki of Savior.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wiki of Savior/Pods-Wiki of Savior.release.xcconfig"; sourceTree = "<group>"; };
 		810CABEF1CC8184200BA964A /* MapsFilterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapsFilterView.xib; sourceTree = "<group>"; };
@@ -115,6 +123,10 @@
 				817D3B931CC7F061005FE990 /* MapsViewController.swift */,
 				817D3B631CC7EF07005FE990 /* AppDelegate.swift */,
 				817D3B691CC7EF07005FE990 /* Main.storyboard */,
+				439979541CD7CC5400E90E67 /* StatsCalculatorViewController.swift */,
+				439979491CD28A5100E90E67 /* Simulation.swift */,
+				439979561CD7CEA400E90E67 /* SimulationCell.xib */,
+				439979581CD7CF0800E90E67 /* SimulationTableViewCell.swift */,
 				817D3B6C1CC7EF07005FE990 /* Assets.xcassets */,
 				817D3B6E1CC7EF07005FE990 /* LaunchScreen.storyboard */,
 				817D3B711CC7EF07005FE990 /* Info.plist */,
@@ -173,6 +185,7 @@
 				817D3B5E1CC7EF07005FE990 /* Resources */,
 				A170E495EFC962AEF308A4D5 /* Embed Pods Frameworks */,
 				1A886CF2198DB52EDD0CECAF /* Copy Pods Resources */,
+				4399796D1CD9334300E90E67 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -271,6 +284,7 @@
 				817D3B701CC7EF07005FE990 /* LaunchScreen.storyboard in Resources */,
 				810CABF01CC8184200BA964A /* MapsFilterView.xib in Resources */,
 				817D3B6D1CC7EF07005FE990 /* Assets.xcassets in Resources */,
+				439979571CD7CEA400E90E67 /* SimulationCell.xib in Resources */,
 				817D3B6B1CC7EF07005FE990 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +320,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wiki of Savior/Pods-Wiki of Savior-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		4399796D1CD9334300E90E67 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" ca3a6a781f6b90d1496ff58639477ecbfc4c8dea fa6d9963be860f59a95356eb45a84f2c18b789d98f3f8d32e94bf80030b5a75f";
 		};
 		A170E495EFC962AEF308A4D5 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -344,9 +371,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				439979551CD7CC5400E90E67 /* StatsCalculatorViewController.swift in Sources */,
 				817D3B941CC7F061005FE990 /* MapsViewController.swift in Sources */,
 				810CABF21CC818FA00BA964A /* MapsFilterView.swift in Sources */,
+				4399794A1CD28A5100E90E67 /* Simulation.swift in Sources */,
 				81CA2DAE1CC7F4560044CFB5 /* Map.swift in Sources */,
+				439979591CD7CF0800E90E67 /* SimulationTableViewCell.swift in Sources */,
 				817D3B641CC7EF07005FE990 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -493,6 +523,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Wiki of Savior/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -512,6 +546,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Wiki of Savior/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
