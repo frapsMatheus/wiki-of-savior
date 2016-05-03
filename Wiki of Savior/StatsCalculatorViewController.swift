@@ -22,6 +22,8 @@ class StatsCalculatorViewController: UIViewController, UITableViewDelegate, UITa
     @IBOutlet var classTextField: UITextField!
     
     
+    var calculateCount = 0
+    
     //########## VARIABLES
     var picker : UIPickerView!
     var classes : [String] = ["Archer", "Cleric", "Swordsman", "Wizard"]
@@ -35,11 +37,11 @@ class StatsCalculatorViewController: UIViewController, UITableViewDelegate, UITa
         picker.dataSource = self
         classTextField.inputView = picker
         
-        
         setupTableView()
-        
-        
-        
+    }
+    
+    func showAdd(){
+        Chartboost.showInterstitial(CBLocationHomeScreen)
     }
     
     //########## SETUP FUNCTIONS
@@ -161,6 +163,12 @@ class StatsCalculatorViewController: UIViewController, UITableViewDelegate, UITa
         
         
         if strTextField.text != "" && conTextField.text != "" && intTextField.text != "" && sprTextField.text != "" && dexTextField.text != "" && lvlTextField.text != "" && classTextField.text != ""{
+            calculateCount += 1
+            
+            if (calculateCount==3) {
+                showAdd()
+                calculateCount = 0
+            }
             
             let simulation = Simulation(str: Float(strTextField.text!)!, con: Float(conTextField.text!)!, int: Float(intTextField.text!)!, spr: Float(sprTextField.text!)!, dex: Float(dexTextField.text!)!, lvl: Float(lvlTextField.text!)!, classType: classTextField.text!)
             

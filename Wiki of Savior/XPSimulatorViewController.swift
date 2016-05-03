@@ -28,8 +28,7 @@ class XPSimulatorViewController: UICollectionViewController, UICollectionViewDel
     var didTap = false
     
     var cardsFieldArray:NSMutableDictionary = NSMutableDictionary.init(capacity: 12)
-    
-    override func viewDidLoad() {
+        override func viewDidLoad() {
         super.viewDidLoad()
         loadCSVs()
         // Do any additional setup after loading the view.
@@ -191,6 +190,7 @@ class XPSimulatorViewController: UICollectionViewController, UICollectionViewDel
             showError("Class % has to be between 0.00% and 100%")
             return
         }
+        
         let initialXP = getCurrentBaseXP()
         let initialClassXP = getCurrentClassXP()
         let cardsSum = sumCards()
