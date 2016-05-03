@@ -86,12 +86,16 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-Wiki of Savior/Bolts.framework"
   install_framework "Pods-Wiki of Savior/JTSImageViewController.framework"
+  install_framework "Pods-Wiki of Savior/KTCenterFlowLayout.framework"
   install_framework "Pods-Wiki of Savior/MBProgressHUD.framework"
   install_framework "Pods-Wiki of Savior/Parse.framework"
+  install_framework "Pods-Wiki of Savior/SwiftCSV.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-Wiki of Savior/Bolts.framework"
   install_framework "Pods-Wiki of Savior/JTSImageViewController.framework"
+  install_framework "Pods-Wiki of Savior/KTCenterFlowLayout.framework"
   install_framework "Pods-Wiki of Savior/MBProgressHUD.framework"
   install_framework "Pods-Wiki of Savior/Parse.framework"
+  install_framework "Pods-Wiki of Savior/SwiftCSV.framework"
 fi

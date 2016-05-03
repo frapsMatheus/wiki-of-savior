@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '197FEE5DE3167E314692F48B'
-               BlueprintName = 'MBProgressHUD'
+               BlueprintIdentifier = '8B2D2C65CC2BC26F350C69DB'
+               BlueprintName = 'KTCenterFlowLayout'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'MBProgressHUD.framework'>
+               BuildableName = 'KTCenterFlowLayout.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

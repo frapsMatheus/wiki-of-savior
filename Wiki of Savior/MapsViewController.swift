@@ -123,7 +123,9 @@ class MapsTableViewController: UIViewController,UITableViewDelegate, UITableView
         }
         let mapsArray = mapsSearchDict.objectForKey(String(levelsSearchArray.objectAtIndex(indexPath.section)))
         let map = mapsArray?.objectAtIndex(indexPath.row) as? Map
+        MBProgressHUD.showHUDAddedTo(self.view, animated:true)
         map?.mapImage?.getDataInBackgroundWithBlock({ (imageData, error) in
+            MBProgressHUD.hideHUDForView(self.view, animated:true)
             if error == nil {
                 if let imageData = imageData {
                     let imageInfo = JTSImageInfo()

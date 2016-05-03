@@ -5,17 +5,21 @@ PODS:
     - Fabric (~> 1.6.3)
   - Fabric (1.6.7)
   - JTSImageViewController (1.5.1)
+  - KTCenterFlowLayout (1.1.1)
   - MBProgressHUD (0.9.2)
   - Parse (1.13.0):
     - Bolts/Tasks (~> 1.6)
+  - SwiftCSV (0.3.2)
 
 DEPENDENCIES:
   - ChartboostSDK
   - Crashlytics
   - Fabric
   - JTSImageViewController
+  - KTCenterFlowLayout
   - MBProgressHUD
   - Parse
+  - SwiftCSV
 
 SPEC CHECKSUMS:
   Bolts: a0058fa3b331c5a1e4402d534f2dae36dbff31e4
@@ -23,7 +27,9 @@ SPEC CHECKSUMS:
   Crashlytics: c3a2333dea9e2733d2777f730910321fc9e25c0d
   Fabric: caf7580c725e64db144f610ac65cd60956911dc7
   JTSImageViewController: 1f8ce1cc93dab0d0af8e53badeea7528560cfec9
+  KTCenterFlowLayout: eded079c349450dea12f7cf94b424d1bc3205519
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   Parse: f51c24d2feb412e4b2d6cc73d37cb24e8d0089bc
+  SwiftCSV: 8b64b738fc54567d229acb17ce6d584e0dd27560
 
 COCOAPODS: 0.39.0

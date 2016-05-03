@@ -8,4 +8,6 @@ target 'Wiki of Savior' do
 	pod 'ChartboostSDK'
 	pod 'Fabric'
 	pod 'Crashlytics'
+	pod 'KTCenterFlowLayout'
+	pod "SwiftCSV"
 end

@@ -14,6 +14,14 @@
 		60BF5319DD0B29D0F0F14A6D /* Pods_Wiki_of_Savior.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6BD6680021943D2807E4B2 /* Pods_Wiki_of_Savior.framework */; };
 		810CABF01CC8184200BA964A /* MapsFilterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 810CABEF1CC8184200BA964A /* MapsFilterView.xib */; };
 		810CABF21CC818FA00BA964A /* MapsFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810CABF11CC818FA00BA964A /* MapsFilterView.swift */; };
+		816E86611CD954C900053D2E /* BaseLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E86591CD954C900053D2E /* BaseLevel.swift */; };
+		816E86621CD954C900053D2E /* CardsXP.csv in Resources */ = {isa = PBXBuildFile; fileRef = 816E865A1CD954C900053D2E /* CardsXP.csv */; };
+		816E86631CD954C900053D2E /* CardsXP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E865B1CD954C900053D2E /* CardsXP.swift */; };
+		816E86641CD954C900053D2E /* ClassExpTable.csv in Resources */ = {isa = PBXBuildFile; fileRef = 816E865C1CD954C900053D2E /* ClassExpTable.csv */; };
+		816E86651CD954C900053D2E /* ClassLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E865D1CD954C900053D2E /* ClassLevel.swift */; };
+		816E86661CD954C900053D2E /* ExpTable.csv in Resources */ = {isa = PBXBuildFile; fileRef = 816E865E1CD954C900053D2E /* ExpTable.csv */; };
+		816E86671CD954C900053D2E /* XPResultsScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E865F1CD954C900053D2E /* XPResultsScreenViewController.swift */; };
+		816E86681CD954C900053D2E /* XPSimulatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E86601CD954C900053D2E /* XPSimulatorViewController.swift */; };
 		817D3B641CC7EF07005FE990 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817D3B631CC7EF07005FE990 /* AppDelegate.swift */; };
 		817D3B6B1CC7EF07005FE990 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817D3B691CC7EF07005FE990 /* Main.storyboard */; };
 		817D3B6D1CC7EF07005FE990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 817D3B6C1CC7EF07005FE990 /* Assets.xcassets */; };
@@ -50,6 +58,14 @@
 		66B9C1E5B7650382E3F06968 /* Pods-Wiki of Savior.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wiki of Savior.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wiki of Savior/Pods-Wiki of Savior.release.xcconfig"; sourceTree = "<group>"; };
 		810CABEF1CC8184200BA964A /* MapsFilterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapsFilterView.xib; sourceTree = "<group>"; };
 		810CABF11CC818FA00BA964A /* MapsFilterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsFilterView.swift; sourceTree = "<group>"; };
+		816E86591CD954C900053D2E /* BaseLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseLevel.swift; sourceTree = "<group>"; };
+		816E865A1CD954C900053D2E /* CardsXP.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CardsXP.csv; sourceTree = "<group>"; };
+		816E865B1CD954C900053D2E /* CardsXP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsXP.swift; sourceTree = "<group>"; };
+		816E865C1CD954C900053D2E /* ClassExpTable.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ClassExpTable.csv; sourceTree = "<group>"; };
+		816E865D1CD954C900053D2E /* ClassLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassLevel.swift; sourceTree = "<group>"; };
+		816E865E1CD954C900053D2E /* ExpTable.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExpTable.csv; sourceTree = "<group>"; };
+		816E865F1CD954C900053D2E /* XPResultsScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPResultsScreenViewController.swift; sourceTree = "<group>"; };
+		816E86601CD954C900053D2E /* XPSimulatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPSimulatorViewController.swift; sourceTree = "<group>"; };
 		817D3B601CC7EF07005FE990 /* Wiki of Savior.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wiki of Savior.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		817D3B631CC7EF07005FE990 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		817D3B6A1CC7EF07005FE990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -94,6 +110,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		816E86481CD954A900053D2E /* XP Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				816E86591CD954C900053D2E /* BaseLevel.swift */,
+				816E865A1CD954C900053D2E /* CardsXP.csv */,
+				816E865B1CD954C900053D2E /* CardsXP.swift */,
+				816E865C1CD954C900053D2E /* ClassExpTable.csv */,
+				816E865D1CD954C900053D2E /* ClassLevel.swift */,
+				816E865E1CD954C900053D2E /* ExpTable.csv */,
+				816E865F1CD954C900053D2E /* XPResultsScreenViewController.swift */,
+				816E86601CD954C900053D2E /* XPSimulatorViewController.swift */,
+			);
+			name = "XP Simulator";
+			sourceTree = "<group>";
+		};
 		817D3B571CC7EF07005FE990 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +151,7 @@
 		817D3B621CC7EF07005FE990 /* Wiki of Savior */ = {
 			isa = PBXGroup;
 			children = (
+				816E86481CD954A900053D2E /* XP Simulator */,
 				817D3B931CC7F061005FE990 /* MapsViewController.swift */,
 				817D3B631CC7EF07005FE990 /* AppDelegate.swift */,
 				817D3B691CC7EF07005FE990 /* Main.storyboard */,
@@ -281,7 +313,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				816E86621CD954C900053D2E /* CardsXP.csv in Resources */,
+				816E86641CD954C900053D2E /* ClassExpTable.csv in Resources */,
 				817D3B701CC7EF07005FE990 /* LaunchScreen.storyboard in Resources */,
+				816E86661CD954C900053D2E /* ExpTable.csv in Resources */,
 				810CABF01CC8184200BA964A /* MapsFilterView.xib in Resources */,
 				817D3B6D1CC7EF07005FE990 /* Assets.xcassets in Resources */,
 				439979571CD7CEA400E90E67 /* SimulationCell.xib in Resources */,
@@ -372,10 +407,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				439979551CD7CC5400E90E67 /* StatsCalculatorViewController.swift in Sources */,
+				816E86681CD954C900053D2E /* XPSimulatorViewController.swift in Sources */,
+				816E86671CD954C900053D2E /* XPResultsScreenViewController.swift in Sources */,
 				817D3B941CC7F061005FE990 /* MapsViewController.swift in Sources */,
+				816E86631CD954C900053D2E /* CardsXP.swift in Sources */,
 				810CABF21CC818FA00BA964A /* MapsFilterView.swift in Sources */,
 				4399794A1CD28A5100E90E67 /* Simulation.swift in Sources */,
+				816E86651CD954C900053D2E /* ClassLevel.swift in Sources */,
 				81CA2DAE1CC7F4560044CFB5 /* Map.swift in Sources */,
+				816E86611CD954C900053D2E /* BaseLevel.swift in Sources */,
 				439979591CD7CF0800E90E67 /* SimulationTableViewCell.swift in Sources */,
 				817D3B641CC7EF07005FE990 /* AppDelegate.swift in Sources */,
 			);
