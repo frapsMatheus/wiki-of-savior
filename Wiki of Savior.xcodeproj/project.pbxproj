@@ -11,9 +11,13 @@
 		439979551CD7CC5400E90E67 /* StatsCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439979541CD7CC5400E90E67 /* StatsCalculatorViewController.swift */; };
 		439979571CD7CEA400E90E67 /* SimulationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 439979561CD7CEA400E90E67 /* SimulationCell.xib */; };
 		439979591CD7CF0800E90E67 /* SimulationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439979581CD7CF0800E90E67 /* SimulationTableViewCell.swift */; };
+		4399799B1CECB43100E90E67 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399799A1CECB43100E90E67 /* RecipesViewController.swift */; };
+		4399799D1CED316F00E90E67 /* RecipeItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4399799C1CED316F00E90E67 /* RecipeItemCell.xib */; };
+		439979A01CED339C00E90E67 /* RecipeItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4399799F1CED339C00E90E67 /* RecipeItemTableViewCell.swift */; };
 		60BF5319DD0B29D0F0F14A6D /* Pods_Wiki_of_Savior.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6BD6680021943D2807E4B2 /* Pods_Wiki_of_Savior.framework */; };
 		810CABF01CC8184200BA964A /* MapsFilterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 810CABEF1CC8184200BA964A /* MapsFilterView.xib */; };
 		810CABF21CC818FA00BA964A /* MapsFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810CABF11CC818FA00BA964A /* MapsFilterView.swift */; };
+		8134707C1CEEA9A7008D8A21 /* AdsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8134707B1CEEA9A7008D8A21 /* AdsManager.swift */; };
 		816E86611CD954C900053D2E /* BaseLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E86591CD954C900053D2E /* BaseLevel.swift */; };
 		816E86621CD954C900053D2E /* CardsXP.csv in Resources */ = {isa = PBXBuildFile; fileRef = 816E865A1CD954C900053D2E /* CardsXP.csv */; };
 		816E86631CD954C900053D2E /* CardsXP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E865B1CD954C900053D2E /* CardsXP.swift */; };
@@ -54,10 +58,14 @@
 		439979541CD7CC5400E90E67 /* StatsCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsCalculatorViewController.swift; sourceTree = "<group>"; };
 		439979561CD7CEA400E90E67 /* SimulationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimulationCell.xib; sourceTree = "<group>"; };
 		439979581CD7CF0800E90E67 /* SimulationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimulationTableViewCell.swift; sourceTree = "<group>"; };
+		4399799A1CECB43100E90E67 /* RecipesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
+		4399799C1CED316F00E90E67 /* RecipeItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecipeItemCell.xib; sourceTree = "<group>"; };
+		4399799F1CED339C00E90E67 /* RecipeItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeItemTableViewCell.swift; sourceTree = "<group>"; };
 		4A6BD6680021943D2807E4B2 /* Pods_Wiki_of_Savior.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wiki_of_Savior.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66B9C1E5B7650382E3F06968 /* Pods-Wiki of Savior.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wiki of Savior.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wiki of Savior/Pods-Wiki of Savior.release.xcconfig"; sourceTree = "<group>"; };
 		810CABEF1CC8184200BA964A /* MapsFilterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapsFilterView.xib; sourceTree = "<group>"; };
 		810CABF11CC818FA00BA964A /* MapsFilterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsFilterView.swift; sourceTree = "<group>"; };
+		8134707B1CEEA9A7008D8A21 /* AdsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdsManager.swift; sourceTree = "<group>"; };
 		816E86591CD954C900053D2E /* BaseLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseLevel.swift; sourceTree = "<group>"; };
 		816E865A1CD954C900053D2E /* CardsXP.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CardsXP.csv; sourceTree = "<group>"; };
 		816E865B1CD954C900053D2E /* CardsXP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsXP.swift; sourceTree = "<group>"; };
@@ -110,6 +118,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4399799E1CED337F00E90E67 /* Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				4399799C1CED316F00E90E67 /* RecipeItemCell.xib */,
+				4399799F1CED339C00E90E67 /* RecipeItemTableViewCell.swift */,
+				4399799A1CECB43100E90E67 /* RecipesViewController.swift */,
+			);
+			name = Recipes;
+			sourceTree = "<group>";
+		};
+		813470791CEEA925008D8A21 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				817D3B931CC7F061005FE990 /* MapsViewController.swift */,
+				81CA2DAD1CC7F4560044CFB5 /* Map.swift */,
+				810CABEF1CC8184200BA964A /* MapsFilterView.xib */,
+				810CABF11CC818FA00BA964A /* MapsFilterView.swift */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		8134707A1CEEA931008D8A21 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				439979541CD7CC5400E90E67 /* StatsCalculatorViewController.swift */,
+				439979491CD28A5100E90E67 /* Simulation.swift */,
+				439979561CD7CEA400E90E67 /* SimulationCell.xib */,
+				439979581CD7CF0800E90E67 /* SimulationTableViewCell.swift */,
+			);
+			name = Stats;
+			sourceTree = "<group>";
+		};
 		816E86481CD954A900053D2E /* XP Simulator */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,20 +191,16 @@
 		817D3B621CC7EF07005FE990 /* Wiki of Savior */ = {
 			isa = PBXGroup;
 			children = (
+				8134707A1CEEA931008D8A21 /* Stats */,
+				813470791CEEA925008D8A21 /* Maps */,
 				816E86481CD954A900053D2E /* XP Simulator */,
-				817D3B931CC7F061005FE990 /* MapsViewController.swift */,
+				4399799E1CED337F00E90E67 /* Recipes */,
 				817D3B631CC7EF07005FE990 /* AppDelegate.swift */,
 				817D3B691CC7EF07005FE990 /* Main.storyboard */,
-				439979541CD7CC5400E90E67 /* StatsCalculatorViewController.swift */,
-				439979491CD28A5100E90E67 /* Simulation.swift */,
-				439979561CD7CEA400E90E67 /* SimulationCell.xib */,
-				439979581CD7CF0800E90E67 /* SimulationTableViewCell.swift */,
 				817D3B6C1CC7EF07005FE990 /* Assets.xcassets */,
 				817D3B6E1CC7EF07005FE990 /* LaunchScreen.storyboard */,
 				817D3B711CC7EF07005FE990 /* Info.plist */,
-				81CA2DAD1CC7F4560044CFB5 /* Map.swift */,
-				810CABEF1CC8184200BA964A /* MapsFilterView.xib */,
-				810CABF11CC818FA00BA964A /* MapsFilterView.swift */,
+				8134707B1CEEA9A7008D8A21 /* AdsManager.swift */,
 			);
 			path = "Wiki of Savior";
 			sourceTree = "<group>";
@@ -314,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				816E86621CD954C900053D2E /* CardsXP.csv in Resources */,
+				4399799D1CED316F00E90E67 /* RecipeItemCell.xib in Resources */,
 				816E86641CD954C900053D2E /* ClassExpTable.csv in Resources */,
 				817D3B701CC7EF07005FE990 /* LaunchScreen.storyboard in Resources */,
 				816E86661CD954C900053D2E /* ExpTable.csv in Resources */,
@@ -413,10 +450,13 @@
 				816E86631CD954C900053D2E /* CardsXP.swift in Sources */,
 				810CABF21CC818FA00BA964A /* MapsFilterView.swift in Sources */,
 				4399794A1CD28A5100E90E67 /* Simulation.swift in Sources */,
+				8134707C1CEEA9A7008D8A21 /* AdsManager.swift in Sources */,
 				816E86651CD954C900053D2E /* ClassLevel.swift in Sources */,
 				81CA2DAE1CC7F4560044CFB5 /* Map.swift in Sources */,
 				816E86611CD954C900053D2E /* BaseLevel.swift in Sources */,
+				439979A01CED339C00E90E67 /* RecipeItemTableViewCell.swift in Sources */,
 				439979591CD7CF0800E90E67 /* SimulationTableViewCell.swift in Sources */,
+				4399799B1CECB43100E90E67 /* RecipesViewController.swift in Sources */,
 				817D3B641CC7EF07005FE990 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

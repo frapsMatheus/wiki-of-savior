@@ -10,6 +10,5 @@
 //#import <Bolts/Bolts.h>
 //#import <JTSImageViewController/JTSImageViewController.h>
 //#import <MBProgressHUD/MBProgressHUD.h>
-#import <Chartboost/Chartboost.h>
 #import <CommonCrypto/CommonDigest.h>
 #import <AdSupport/AdSupport.h>

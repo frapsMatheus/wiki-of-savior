@@ -64,7 +64,7 @@ class XPResultsScreenViewController: UIViewController {
     }
     
     override func viewWillDisappear(animated: Bool) {
-        Chartboost.showInterstitial(CBLocationHomeScreen)
+        AdsManager.sharedInstance.showAd(self)
     }
     
     func generateBaseInfo()

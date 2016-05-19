@@ -42,7 +42,7 @@ class MapsTableViewController: UIViewController,UITableViewDelegate, UITableView
     }
 
     func showAdd(){
-        Chartboost.showInterstitial(CBLocationHomeScreen)
+        AdsManager.sharedInstance.showAd(self)
     }
     
     // MARK: - Table view data source
@@ -142,20 +142,25 @@ class MapsTableViewController: UIViewController,UITableViewDelegate, UITableView
         let query = PFQuery(className:"Maps")
         MBProgressHUD.showHUDAddedTo(self.view, animated:true)
         query.orderByAscending("Lv")
+        query.limit = 1000
         query.findObjectsInBackgroundWithBlock { (objects, error) in
             MBProgressHUD.hideHUDForView(self.view, animated:true)
-            for object in objects! {
-                let map = Map(object: object)
-                if !(self.levelsArray.containsObject(map.lvl!)) {
-                    self.levelsArray.addObject(map.lvl!)
-                    self.mapsDict.setObject(NSMutableArray(), forKey:String(map.lvl!))
+            if objects != nil{
+                for object in objects! {
+                    let map = Map(object: object)
+                    if !(self.levelsArray.containsObject(map.lvl!)) {
+                        self.levelsArray.addObject(map.lvl!)
+                        self.mapsDict.setObject(NSMutableArray(), forKey:String(map.lvl!))
+                    }
+                    let array = self.mapsDict.objectForKey(String(map.lvl!)) as? NSMutableArray
+                    array?.addObject(map)
                 }
-                let array = self.mapsDict.objectForKey(String(map.lvl!)) as? NSMutableArray
-                array?.addObject(map)
+                self.levelsSearchArray = self.levelsArray
+                self.mapsSearchDict = self.mapsDict
+                self.tableView.reloadData()
+            } else {
+                self.downloadMapsData()
             }
-            self.levelsSearchArray = self.levelsArray
-            self.mapsSearchDict = self.mapsDict
-            self.tableView.reloadData()
         }
     }
 

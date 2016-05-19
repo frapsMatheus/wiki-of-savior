@@ -5,9 +5,10 @@ target 'Wiki of Savior' do
  	pod 'Parse'
   	pod 'JTSImageViewController'
 	pod 'MBProgressHUD'
-	pod 'ChartboostSDK'
 	pod 'Fabric'
 	pod 'Crashlytics'
 	pod 'KTCenterFlowLayout'
 	pod "SwiftCSV"
+	pod 'Firebase/Core'
+	pod 'Firebase/AdMob'
 end

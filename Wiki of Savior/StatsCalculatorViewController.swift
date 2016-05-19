@@ -41,7 +41,7 @@ class StatsCalculatorViewController: UIViewController, UITableViewDelegate, UITa
     }
     
     func showAdd(){
-        Chartboost.showInterstitial(CBLocationHomeScreen)
+        AdsManager.sharedInstance.showAd(self)
     }
     
     //########## SETUP FUNCTIONS
